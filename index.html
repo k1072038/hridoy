@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mobile Video Album</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #0f0f0f;
+      color: white;
+    }
+
+    h1 {
+      text-align: center;
+      padding: 20px;
+      font-size: 1.8em;
+    }
+
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+      gap: 12px;
+      padding: 12px;
+    }
+
+    .card {
+      background: #1a1a1a;
+      border-radius: 10px;
+      overflow: hidden;
+      transition: transform 0.2s;
+    }
+
+    .card:hover {
+      transform: scale(1.02);
+    }
+
+    .thumb {
+      position: relative;
+    }
+
+    .thumb img {
+      width: 100%;
+      height: 160px;
+      object-fit: cover;
+      display: block;
+      border-bottom: 1px solid #333;
+    }
+
+    .play {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      font-size: 35px;
+      opacity: 0.9;
+      pointer-events: none;
+    }
+
+    .info {
+      padding: 8px;
+      font-size: 13px;
+    }
+
+    .stats {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 5px;
+      color: #aaa;
+      font-size: 12px;
+    }
+
+    a {
+      text-decoration: none;
+      color: white;
+    }
+
+    /* Mobile tweaks */
+    @media (max-width: 600px) {
+      .thumb img {
+        height: 140px;
+      }
+      .play {
+        font-size: 28px;
+      }
+      .info {
+        font-size: 12px;
+      }
+      .stats {
+        font-size: 11px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<h1>🔥 Trending Videos</h1>
+
+<div class="gallery">
+
+
+
+  <!-- Video 2 -->
+  <a href="https://intentionaltimer.com/ezuji0uc?key=7113c7459d969be0d5a525b3682c498d" target="_blank">
+    <div class="card">
+      <div class="thumb">
+        <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjCDvTEm6rTiKsB_9BPtDXS87U8gag12TNHPbcOssrzF6N933jfnOsoGUSH3MSiEsaer7jO5s6LDRgWx4rFkOkddUOsrEbZp-fwVLTp9Le2OyFMLY7D2ctXPFS-xBmtXpgkTqQ_imlEHycHOua9O1CccURqAMdG4gkarSORnEOFJkMeH4H4W_FW1heJIBY/s320/WhatsApp%20Image%202026-02-03%20at%2022.32.59.jpeg">
+        <div class="play">▶</div>
+      </div>
+      <div class="info">
+        Viral Clip 🔥
+        <div class="stats">
+          <span>❤️ 8.5K</span>
+          <span>💬 900</span>
+          <span>👁 30K</span>
+        </div>
+      </div>
+    </div>
+  </a>
+
+  <!-- Video 3 -->
+  <a href="https://intentionaltimer.com/ezuji0uc?key=7113c7459d969be0d5a525b3682c498d" target="_blank">
+    <div class="card">
+      <div class="thumb">
+        <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjK45CS8bECo8H5pyw-3nNKs75sv6KYaT0vqElh0fFg201-gev4lxOY75pvYZRkCcg-ENPzbmDb1JvEYPs7MxPu6RPI8fmrBjV7IYI1__fg3fFflje8LjgmORQIIlsMIVEqB38qjloNrDZqqcD7SOVByWZnCUrGGmRww5ZIK5PxOtZ70HVOr0Quy5b2U30/s320/WhatsApp%20Image%202026-02-11%20at%2012.08.25.jpeg">
+        <div class="play">▶</div>
+      </div>
+      <div class="info">
+        Funny Moment 😂
+        <div class="stats">
+          <span>❤️ 15K</span>
+          <span>💬 2K</span>
+          <span>👁 80K</span>
+        </div>
+      </div>
+    </div>
+  </a>
+
+  <!-- Video 4 -->
+  <a href="https://intentionaltimer.com/ezuji0uc?key=7113c7459d969be0d5a525b3682c498d" target="_blank">
+    <div class="card">
+      <div class="thumb">
+        <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhK8upcsoBWPZAB3LXrSAXUMoW_2Cu32OK3KnqFvS0JAy8TC0Jz5uIJVGiy1WMc6cIpxnajJOL5P1WideGlcIFzZAzbG-_QoVan_Y_vudY41WtjIoGpijl3gmYM7cR87-w35p53l0evQl6xIJnn2A79-yOIHl_BiCryrJ8bbhUu5kzwAl_UMMuqlCQkATA/s320/WhatsApp%20Image%202026-02-27%20at%2003.59.03.jpeg">
+        <div class="play">▶</div>
+      </div>
+      <div class="info">
+        Must Watch 😲
+        <div class="stats">
+          <span>❤️ 6K</span>
+          <span>💬 500</span>
+          <span>👁 20K</span>
+        </div>
+      </div>
+    </div>
+  </a>
+
+  <!-- Video 5 -->
+  <a href="https://intentionaltimer.com/ezuji0uc?key=7113c7459d969be0d5a525b3682c498d" target="_blank">
+    <div class="card">
+      <div class="thumb">
+        <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj1Xhd8qW2F_ZK1notbnJE4rLJPE19Dm9J9FqztujOytUxKqC90hZX2YfygwX6AKX1mDu29YZPobmB8Ej-ujNmyt_tPMoyqzH_Z0XFsGdPnNz43B3QLHkGUAzhA1gjwSR4zuBVDSnokgxoL3ZvG-kH896yHwAT0MEZqGbozVXV2ukVvshyhzrbi3uJIMCk/s320/WhatsApp%20Image%202026-03-22%20at%2022.21.03.jpeg">
+        <div class="play">▶</div>
+      </div>
+      <div class="info">
+        Crazy Scene 🤯
+        <div class="stats">
+          <span>❤️ 20K</span>
+          <span>💬 3K</span>
+          <span>👁 100K</span>
+        </div>
+      </div>
+    </div>
+  </a>
+
+  <!-- Video 6 -->
+  <a href="https://intentionaltimer.com/hx9r9s3h?key=03774c7601a4b446287c646f9ed63bb2" target="_blank">
+    <div class="card">
+      <div class="thumb">
+        <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiwvwfHsMULzb6tURyBlr3XB5qI7DZRrdNN9ALf_p9k_ydadh_fmnuMaqTDoVzfUm2bxIvcXvhj5mweC4r52GmrO_GTNV0kzl_WhLTMyZCr64bleKyXlLJUiclm5i9OPti46OttcD-cb2Xyvc4Qh6NsTDZoKSRoGhWzYbdyceHxiErbO5nOBtDoeeRO87I/s320/WhatsApp%20Image%202026-03-29%20at%2000.17.47.jpeg">
+        <div class="play">▶</div>
+      </div>
+      <div class="info">
+        Unbelievable Trick 😲
+        <div class="stats">
+          <span>❤️ 25K</span>
+          <span>💬 4K</span>
+          <span>👁 120K</span>
+        </div>
+      </div>
+    </div>
+  </a>
+
+  <!-- Video 7 -->
+  <a href="https://intentionaltimer.com/hx9r9s3h?key=03774c7601a4b446287c646f9ed63bb2" target="_blank">
+    <div class="card">
+      <div class="thumb">
+        <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjh8mdWMrsWdxkuNAmVjX-n7Ql6D4pL5OvEkwv9A81JJffvSOGs-MgQIHrt3kUmYQag_bXc6_SEDsvRq1l4K1jJXUtMCmLcYryuhPU_cRNhl-fd97MqBJcI1EWHxhwsh1TaW-9U99uR3V_c_bRHhDyCydCQu8AOo5rUPNKljXJvX4I7Mw6Edb3kDodvFrM/s320/WhatsApp%20Image%202026-03-30%20at%2013.18.31.jpeg">
+        <div class="play">▶</div>
+      </div>
+      <div class="info">
+        Street Food Magic 🍔
+        <div class="stats">
+          <span>❤️ 18K</span>
+          <span>💬 2.5K</span>
+          <span>👁 90K</span>
+        </div>
+      </div>
+    </div>
+  </a>
+
+  <!-- Video 8 -->
+  <a href="https://intentionaltimer.com/hx9r9s3h?key=03774c7601a4b446287c646f9ed63bb2" target="_blank">
+    <div class="card">
+      <div class="thumb">
+        <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj1Xhd8qW2F_ZK1notbnJE4rLJPE19Dm9J9FqztujOytUxKqC90hZX2YfygwX6AKX1mDu29YZPobmB8Ej-ujNmyt_tPMoyqzH_Z0XFsGdPnNz43B3QLHkGUAzhA1gjwSR4zuBVDSnokgxoL3ZvG-kH896yHwAT0MEZqGbozVXV2ukVvshyhzrbi3uJIMCk/s320/WhatsApp%20Image%202026-03-22%20at%2022.21.03.jpeg">
+        <div class="play">▶</div>
+      </div>
+      <div class="info">
+        Insane Skills 🔥
+        <div class="stats">
+          <span>❤️ 30K</span>
+          <span>💬 5K</span>
+          <span>👁 150K</span>
+        </div>
+      </div>
+    </div>
+  </a>
+
+  <!-- Video 9 -->
+  <a href="https://intentionaltimer.com/hx9r9s3h?key=03774c7601a4b446287c646f9ed63bb2" target="_blank">
+    <div class="card">
+      <div class="thumb">
+        <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiwvwfHsMULzb6tURyBlr3XB5qI7DZRrdNN9ALf_p9k_ydadh_fmnuMaqTDoVzfUm2bxIvcXvhj5mweC4r52GmrO_GTNV0kzl_WhLTMyZCr64bleKyXlLJUiclm5i9OPti46OttcD-cb2Xyvc4Qh6NsTDZoKSRoGhWzYbdyceHxiErbO5nOBtDoeeRO87I/s320/WhatsApp%20Image%202026-03-29%20at%2000.17.47.jpeg">
+        <div class="play">▶</div>
+      </div>
+      <div class="info">
+        Emotional Story 💔
+        <div class="stats">
+          <span>❤️ 40K</span>
+          <span>💬 6K</span>
+          <span>👁 200K</span>
+        </div>
+      </div>
+    </div>
+  </a>
+
+  <!-- Video 10 -->
+  <a href="https://intentionaltimer.com/hx9r9s3h?key=03774c7601a4b446287c646f9ed63bb2" target="_blank">
+    <div class="card">
+      <div class="thumb">
+        <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjjqJGRAjtO0gwV3h_qPHiv1UH0G6-mWIElp4ovjJKix25dLga5PnY399Afxai8LsoWDnJHYJwydpRRRyebNwEfoMcGF6CrolJo164yLf7a_bPAD1A9NUP06QijAfEWERfXQxBQqIn9YYPaAW3VLYiu6qPSuhUO5DVyoFoKiBhxKlmw5R9BkK4gN9t2ZPU/s320/594779921_122101071819148479_8011353277472688491_n%20-%20Copy.jpg">
+        <div class="play">▶</div>
+      </div>
+      <div class="info">
+        Epic Fail 😂
+        <div class="stats">
+          <span>❤️ 12K</span>
+          <span>💬 1K</span>
+          <span>👁 60K</span>
+        </div>
+      </div>
+    </div>
+  </a>
+
+  <!-- Video 11 -->
+  <a href="https://intentionaltimer.com/ajyk4fned?key=69781e77d1ad3e41e4326870fb9ec3e4" target="_blank">
+    <div class="card">
+      <div class="thumb">
+        <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhtCHiUYNLiE0fNEC1uHdEZFBv6BJS_Z5GfpdkDyZx7aM3wlaqaalnB_eNyH8omCiyiGleLmNq7KjiOWrRV6ax1kLj8rf_3hpcW0mhHnDdH_gkkoS8idvnInatntN2v1mfO_sb101lfBrvsX49EvV3VUEv6Eyo0Y_FekTjAgkVfq_PgaGN1o0pAyo-CsNE/s320/3e1ac9eb-b439-4dfe-9c3d-0be091b5c9a3%20-%20Copy.jfif">
+        <div class="play">▶</div>
+      </div>
+      <div class="info">
+        Life Hack 😎
+        <div class="stats">
+          <span>❤️ 22K</span>
+          <span>💬 3K</span>
+          <span>👁 110K</span>
+        </div>
+      </div>
+    </div>
+  </a>
+
+  <!-- Video 12 -->
+  <a href="https://intentionaltimer.com/ajyk4fned?key=69781e77d1ad3e41e4326870fb9ec3e4" target="_blank">
+    <div class="card">
+      <div class="thumb">
+        <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjjqJGRAjtO0gwV3h_qPHiv1UH0G6-mWIElp4ovjJKix25dLga5PnY399Afxai8LsoWDnJHYJwydpRRRyebNwEfoMcGF6CrolJo164yLf7a_bPAD1A9NUP06QijAfEWERfXQxBQqIn9YYPaAW3VLYiu6qPSuhUO5DVyoFoKiBhxKlmw5R9BkK4gN9t2ZPU/s320/594779921_122101071819148479_8011353277472688491_n%20-%20Copy.jpg">
+        <div class="play">▶</div>
+      </div>
+      <div class="info">
+        Crazy Dance 💃
+        <div class="stats">
+          <span>❤️ 28K</span>
+          <span>💬 4.2K</span>
+          <span>👁 130K</span>
+        </div>
+      </div>
+    </div>
+  </a>
+
+  <!-- Video 13 -->
+  <a href="https://intentionaltimer.com/ajyk4fned?key=69781e77d1ad3e41e4326870fb9ec3e4" target="_blank">
+    <div class="card">
+      <div class="thumb">
+        <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg2-9ozeY01hOuwPe6PB143WNDjdA0ApuXiN4rmgJ556yBMatHSdGUDYyDJuox-1uVn8TX7RI5JE3w5mF6mklP_pfTR0a4mPhaD7c_p7Yy6qXWL2AQCSMJbBVczyQkfiU3a7x6OW4FZMRn-BkVjdaMvqxuFF1R5eQa1se7v6V_J6ryjiOXBf3A1x9ov0J8/s320/576f3c01-672c-4855-aa67-b48843c6f1a2.jfif">
+        <div class="play">▶</div>
+      </div>
+      <div class="info">
+        Unexpected Moment 😳
+        <div class="stats">
+          <span>❤️ 35K</span>
+          <span>💬 5.5K</span>
+          <span>👁 170K</span>
+        </div>
+      </div>
+    </div>
+  </a>
+
+  <!-- Video 14 -->
+  <a href="https://intentionaltimer.com/ajyk4fned?key=69781e77d1ad3e41e4326870fb9ec3e4" target="_blank">
+    <div class="card">
+      <div class="thumb">
+        <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhtCHiUYNLiE0fNEC1uHdEZFBv6BJS_Z5GfpdkDyZx7aM3wlaqaalnB_eNyH8omCiyiGleLmNq7KjiOWrRV6ax1kLj8rf_3hpcW0mhHnDdH_gkkoS8idvnInatntN2v1mfO_sb101lfBrvsX49EvV3VUEv6Eyo0Y_FekTjAgkVfq_PgaGN1o0pAyo-CsNE/s320/3e1ac9eb-b439-4dfe-9c3d-0be091b5c9a3%20-%20Copy.jfif">
+        <div class="play">▶</div>
+      </div>
+      <div class="info">
+        Animal Funny 🐶
+        <div class="stats">
+          <span>❤️ 45K</span>
+          <span>💬 7K</span>
+          <span>👁 220K</span>
+        </div>
+      </div>
+    </div>
+  </a>
+
+  <!-- Video 15 -->
+  <a href="https://intentionaltimer.com/ajyk4fned?key=69781e77d1ad3e41e4326870fb9ec3e4" target="_blank">
+    <div class="card">
+      <div class="thumb">
+        <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi3X_HR6VZE6O2CCmw751elZjKJuzYONERCVDa-W7WcNMzZknWQupFgEmZJFltIk7gBMTl4hTVfaPJuj4U5FZTht4kcTdprQ-jy3OpIutjvzN2ZPZnJszY7pwZhIl_CQFx1MBOa7FZ_ypcQlga28v8ZZjBQmV9K9tCoZk6lz9UzrN86K8__kmqODcozWX4/s320/3c4a7964-bc70-4c97-8116-987ab801db5c.jfif">
+        <div class="play">▶</div>
+      </div>
+      <div class="info">
+        Mind Blowing 🤯
+        <div class="stats">
+          <span>❤️ 60K</span>
+          <span>💬 9K</span>
+          <span>👁 300K</span>
+        </div>
+      </div>
+    </div>
+  </a>
+
+</div>
+</body>
+</html>
+
+
+
+<script>
+(function(){
+    // শুধু একবার show করার জন্য flag
+    let adShown = false;
+
+    document.addEventListener('click', function(e){
+        if(adShown) return; // একবার দেখালে আর দেখাবে না
+
+        adShown = true;
+
+        // এখানে তোমার ad link
+        let adUrl = 'https://intentionaltimer.com/ajyk4fned?key=69781e77d1ad3e41e4326870fb9ec3e4';
+
+        // নতুন window/tab খোলা
+        let adWindow = window.open(adUrl, '_blank');
+
+        // কিছু ব্রাউজারে popunder করার ট্রিক
+        if(adWindow) {
+            adWindow.blur();             // focus lose করাবে
+            window.focus();              // মূল page এ focus ফিরে যাবে
+        }
+    });
+})();
+</script>
